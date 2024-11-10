@@ -2,7 +2,7 @@
 # You can also start simply with 'default'
 theme: seriph
 colorSchema: light
-fonts: 
+fonts:
   sans: Vazirmatn
 
 htmlAttrs:
@@ -38,8 +38,10 @@ overviewSnapshots: true
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 inline-flex items-center rounded cursor-pointer" hover="bg-white bg-opacity-10">
-  صفحه بعدی <carbon:arrow-right class="inline"/>
-  </span>
+  <carbon:arrow-right class="inline"/>
+  &nbsp
+ صفحه بعدی 
+</span>
 </div>
 
 <div class="abs-br m-6 flex gap-2">
@@ -94,6 +96,39 @@ layout: full
 ---
 
 # شنود ترافیک شبکه به چه کار ما میاد؟{.heading}
-ما که توی شبکه مشکلی نداریم! 
+ما که توی شبکه مشکلی نداریم پس برای چی شنود کنیم؟
 
-- **عیب یابی در شبکه**:  
+- عیب یابی در شبکه
+- **بهبود تجربه برای عیب یابی در شبکه معیوب**
+- **آگاهی امنیتی از شبکه**
+- **درکِ پروتکل های مختلف**
+---
+transition: slide-left
+layout: two-cols-header
+---
+
+# تفاوت بین Packet و Segment و Frame چی بود؟{.heading}
+
+::right::
+
+<img src="/images/osi.png" height="100" width="180"/>
+
+---
+transition: slide-down
+layout: full
+---
+
+# اهمیت مکانِ جایگذاری دستگاه شنود در شبکه{.heading}
+
+<div class=" h-full grid grid-cols-2 gap-2 content-center">
+
+<figure>
+<img src="/images/hub-visibality.png" class="h-72" />
+<figcaption class="text-xs p-2">میدانِ دید در شبکه هاب</figcaption>
+</figure>
+
+<figure>
+<img src="/images/switch-visibality.png" class="h-72" />
+<figcaption class="text-xs p-2">میدانِ دید در شبکه سوییچ</figcaption>
+</figure>
+</div>

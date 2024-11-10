@@ -9,7 +9,8 @@
   -moz-text-fill-color: transparent;
 }
 .col-right{
-  align-content: center;
+  justify-content: center;
+  display: flex;
 }
 img{
   border-radius: 10px;
