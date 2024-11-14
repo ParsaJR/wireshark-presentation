@@ -177,7 +177,7 @@ transition: slide-up
 layout: center
 ---
 
-# **بررسی چند پروتکل در لایه های مختلف شبکه(arp,udp,http)**{.heading}
+# **بررسی چند پروتکل در لایه های مختلف شبکه(arp,udp,icmp)**{.heading}
 
 ---
 transition: slide-up
